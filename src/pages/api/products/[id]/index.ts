@@ -52,15 +52,15 @@ export default function handler(
     const { id } = query;
 
     let product;
-    if (id == 1) {
+    if (id == "1") {
         product = products[0];
-    } else if (id == 2) {
+    } else if (id == "2") {
         product = products[1];
-    } else if (id == 3) {
+    } else if (id == "3") {
         product = products[2];
-    } else if (id == 4) {
+    } else if (id == "4") {
         product = products[3];
-    } else if (id == 5) {
+    } else if (id == "5") {
         product = products[4];
     } else {
         product = {
